@@ -8,7 +8,7 @@ const demo = {
         obj: {
             question: "Represent the number -0.75 in single precision floatingpoint format:",
             points: 20,
-            negativePoints: 10,
+            negativePoints: 20,
             description: "",
             hasImage: false,
             imageLink: "",

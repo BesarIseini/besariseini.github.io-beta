@@ -6,7 +6,7 @@ const demo = {
     {
         type: QuestionType.ORDERING,
         obj: {
-            question: "Represent the number -0.75 in single precision floatingpoint format:",
+            question: "Order the numbers in ascending order.",
             points: 20,
             negativePoints: 20,
             description: "",
@@ -20,7 +20,61 @@ const demo = {
             correct: ["1", "2", "3", "4", "5"],
             warningMessage: []
         }
-    }
+    },
+        {
+            type: QuestionType.ORDERING,
+            obj: {
+                question: "Order the numbers in ascending order.",
+                points: 20,
+                negativePoints: 20,
+                description: "",
+                hasImage: false,
+                imageLink: "",
+                required: false,
+                renderType: "vertical",
+                options: [
+                    "1", "2", "3", "4", "5", "a", "b", "c", "d", "e", "testingLmao"
+                ],
+                correct: ["1", "2", "3", "4", "5"],
+                warningMessage: []
+            }
+        },
+        {
+            type: QuestionType.ORDERING,
+            obj: {
+                question: "Order the numbers in ascending order.",
+                points: 20,
+                negativePoints: 20,
+                description: "",
+                hasImage: false,
+                imageLink: "",
+                required: false,
+                renderType: "horizontalNumbered",
+                options: [
+                    "1", "2", "3", "4", "5", "a", "b", "c", "d", "e", "testingLmao"
+                ],
+                correct: ["1", "2", "3", "4", "5"],
+                warningMessage: []
+            }
+        },
+        {
+            type: QuestionType.ORDERING,
+            obj: {
+                question: "Order the numbers in ascending order.",
+                points: 20,
+                negativePoints: 20,
+                description: "",
+                hasImage: false,
+                imageLink: "",
+                required: false,
+                renderType: "verticalNumbered",
+                options: [
+                    "1", "2", "3", "4", "5", "a", "b", "c", "d", "e", "testingLmao"
+                ],
+                correct: ["1", "2", "3", "4", "5"],
+                warningMessage: []
+            }
+        },
 ],
     hasTimer: true,
      timer: 600,

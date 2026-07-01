@@ -14,7 +14,7 @@ const demo = {
                 imageLink: "",
                 required: false,
                 renderType: "ordered",
-                answerOverride: true,
+                answerOverride: false,
                 tableN: {
                     rows: 2,
                     columns: 4,
@@ -121,7 +121,7 @@ const demo = {
     hasTimer: true,
      timer: 600,
     quizSettings: {
-        shuffleQuestions: true,
+        shuffleQuestions: false,
         title: "Version 1.1 - Select",
         courseId: "DM",
         duration: 600,
